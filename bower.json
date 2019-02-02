@@ -1,0 +1,30 @@
+{
+  "name": "Seattle City",
+  "version": "1.0.0",
+  "description": "Seattle is a great place to visit and live - we will introduce its culture, climate, public transportation system, housing, expansion in technology industry, and recreational places.",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "Seattle",
+    "Seattle attractions",
+    "Space Needle"
+  ],
+  "authors": [
+    "Joanne Hsu"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.4.0",
+    "angular": "~1.4.7",
+    "angular-ui-router": "^1.0.4"
+  }
+}

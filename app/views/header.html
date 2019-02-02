@@ -1,0 +1,33 @@
+<div class="container" id="header">
+  <!-- Header area -->
+  <div class="row">
+    <p>Seattle City</p>
+  </div>
+</div>
+<nav class="navbar navbar-inverse container" role="navigation">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+  </div>
+  <div id="navbar" class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+      <li class="active"><a ui-sref="app" target="_self">Home</a></li>
+      <li><a ui-sref="app.seattle_introduction" target="_self">The Emerald City</a></li>
+      <li><a ui-sref="app.seattle_neighborhoods" target="_self">Neighborhoods</a></li>
+      <li><a ui-sref="app.seattle_attractions" target="_self">Attractions</a></li>
+      <li><a ui-sref="app.seattle_tech" target="_self">Growing Tech</a></li>
+        <li id="dropdown">
+        <a href="javascript:void(0)" id="dropbtn">More Information <b class="caret"></b></a>
+        <ul><li id="dropdown-content">
+            <a ui-sref="app.seattle_public_transportation" target="_self">Public Transportation</a>
+            <a ui-sref="app.seattle_hotels" target="_self">Hotels</a>  
+            <a ui-sref="app.seattle_directions" target="_self">Directions</a>
+       </li> </ul>
+        </li>
+    </ul>
+  </div>
+</nav>
